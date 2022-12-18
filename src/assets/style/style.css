@@ -1,0 +1,162 @@
+
+body {
+	overflow-x: hidden;
+}
+
+
+.vs-btn {
+	border: none;
+	border-radius: 6px;
+	padding: 12px;
+	background: none;
+	cursor: pointer;
+	font-weight: bold;
+	width: fit-content;
+}
+
+.vs-btn-standart {
+	background: white;
+	color: #a7acb5;
+}
+
+.vs-btn-standart:hover {
+	box-shadow: 0 4px 12px hsl(0deg 1% 59% / 24%);
+	color: rgba(0, 0, 0, 0.664);
+	animation: fadeIn;
+	animation-duration: 2s;
+}
+
+.vs-btn-standart_selected {
+	box-shadow: 0 4px 12px hsl(0deg 1% 59% / 24%);
+	color: #fe540e;
+	animation: fadeIn;
+	animation-duration: 1s;
+}
+
+.vs-btn-orange {
+	background: #fe540e;
+	color: white;
+	box-shadow: 0 4.9375rem 5rem rgb(176 42 9 / 9%), 0 2.0625rem 2.0625rem rgb(176 42 9 / 6%), 0 1.125rem 1.125rem rgb(176 42 9 / 5%), 0 0.625rem 0.625rem rgb(176 42 9 / 5%), 0 0.3125rem 0.3125rem rgb(176 42 9 / 4%);
+}
+
+.vs-btn-orange:hover {
+	background: #f04f0b;
+	animation: fadeIn;
+}
+
+.vs-btn-output {
+	border: #fe540e solid 1.2px;
+	color: #fe540e;
+}
+
+.vs-btn-output:hover {
+	background: #fe540e;
+	color: white;
+	animation: fadeIn;
+}
+
+.vs-bg-orange {
+	background: #fe540e;
+}
+
+.vs-color-orange {
+	color: #fe540e !important;
+}
+
+.vs-color-graywhile {
+	color: #a7acb5;
+}
+
+.vs-bg-graywhile {
+	background: #f8f8f8;
+}
+
+.vs-link {
+	cursor: pointer;
+}
+
+p, span {
+	font-size: 15px;
+}
+
+.container {
+	padding: 0 !important;
+}
+
+.btn_selections {
+	display: flex;
+	justify-content: row;
+
+}
+
+.vs-btncontroll {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.vs-btncontroll span {
+	margin-top: 10px;
+	font-size: 10px;
+}
+
+.vs-btncontroll span:hover {
+	font-weight: bold;
+}
+
+.vs-btncontroll_span_select {
+	font-weight: bold;
+}
+
+.vs-btncontroll>button {
+	width: 160px;
+	height: 60px;
+}
+.vs-btncontroll {
+	margin-left: 10px;
+}
+.vs-btncontroll:first-child {
+	margin-left: 0px;
+}
+
+/**  
+	Dishes sections
+*/
+
+.links_dishes {
+	display: flex;
+}
+.links_dishes_item {
+	margin-left: 15px;
+	color: #a7acb5;
+	font-weight: bold;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+.links_dishes_item:hover {
+	color: rgba(0, 0, 0, 0.664);
+	animation: fadeIn;
+	animation-duration: 1s;
+}
+
+.links_dishes_item:first-child {
+	margin-left: 0px;
+}
+
+.vs-btncontroll button {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.vs-btncontroll .title_btn {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.vs-btncontroll .description_btn {
+	margin-top: 0px;
+}
